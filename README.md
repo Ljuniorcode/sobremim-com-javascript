@@ -3,10 +3,10 @@
 - A primeira página eu conto um pouco sobre mim;
 - A segunda eu mostro alguns vídeos que abrem na mesma página;
 
-* Parte técnica
+* Parte técnica:
 - HTML, CSS, JavaScript, Node.js, Nunjucks
 
-* Observações
+* Observações:
 - Estou praticando cada vez mais para fixar os conhecimentos e melhorar o raciocínio lógico.
 
 - JavaScript é a primeira linguagem de programação que eu tive contato, estou achando gigante a quantidade
