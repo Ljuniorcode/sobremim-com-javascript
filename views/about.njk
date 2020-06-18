@@ -1,0 +1,40 @@
+{% extends "layout.njk" %}
+
+
+{% block head %}
+<title>Sobre - Luciano</title>
+{% endblock %}
+
+{% block content%}
+
+<div id="wrapper">
+    <img src="{{about.avatar_url}}"
+        alt=" Imagem de {{about.name}}">
+    <h1>&lt {{about.name}} /&gt </h1>
+    <h2>{{about.role}}</h2>
+    <p>{{about.description}}</p></br>
+    <p>Iniciante no mundo do desenvolvimento web, todos os dias agrego um pouco de conhecimento através de cursos online,
+    artigos, livros digitais e comunidades de tecnologia. 
+    </p></br>
+    <p>A situação atual do planeta e alguns amigos me pedindo algo que eu ainda não conhecia como
+        criar um site, um app ou um pequeno sistema para o seu comércio... me fez repensar e sair da zona de conforto,
+        então decide aprender algo novo, fui diminuindo as
+        energias no trabalho atual e aumentando na nova carreira como dev, focando nos estudos de desenvolvimento web.
+    </p></br>
+    <p>O motivo de eu escolher o mundo web é que eu acredito que o Javascript seja umas das principais linguagens de
+        programação do mundo.
+        Podemos criar: Sites, aplicações e aplicativos de uma maneira incrível, estou na fase de construir uma base
+        sólida para a minha
+        nova carreira, pois antes eu era da área de infraestrutura e suporte técnico, mas agora estou decido a iniciar
+        uma nova carreira.
+    </p></br>
+</div>
+
+<div id="links-footer" class="links">
+    {% for link in about.links %}
+    <a href="{{link.url}}" target="_blank">{{link.name}}</a>
+    
+    {% endfor %}
+</div>
+
+{% endblock %}
